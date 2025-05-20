@@ -1,4 +1,11 @@
 package com.ironhack.grades_data_service.repositories;
 
-public class GradeRepository {
+import com.ironhack.grades_data_service.models.Grade;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface GradeRepository extends JpaRepository<Grade, Long> {
+
+
 }
