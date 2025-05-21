@@ -22,7 +22,7 @@ public class GradeController {
     // Add your endpoints here
     // For example:
      @GetMapping()
-     public List<Grade> getGradesByCourseCode(@PathVariable String courseCode) {
+     public List<Grade> getAll() {
          return gradeRepository.findAll();
      }
 }

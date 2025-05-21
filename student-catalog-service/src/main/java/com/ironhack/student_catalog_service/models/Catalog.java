@@ -10,14 +10,10 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Catalog {
-    @Id
     private String courseName;
-
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "catalog")
     private List<StudentGrade> studentGrades;
 }

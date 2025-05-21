@@ -10,6 +10,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CourseGrade {
-    private int grade;
-    private int name;
+    private String courseName;
+    private float grade;
+    private String name;
+    private int age;
 }

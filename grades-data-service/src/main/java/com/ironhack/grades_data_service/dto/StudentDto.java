@@ -1,15 +1,14 @@
 package com.ironhack.grades_data_service.dto;
 
-import com.ironhack.grades_data_service.models.Course;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CourseGradeListDTO {
-    private List<CourseGrade> grades;
+public class StudentDto {
+    private Long id;
+    private String name;
+    private int age;
 }
