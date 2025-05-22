@@ -16,6 +16,6 @@ public class StudentGrade {
 
     private String name;
     private int age;
-    private int grade;
+    private float grade;
 
 }
